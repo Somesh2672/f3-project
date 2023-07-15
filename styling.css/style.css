@@ -1,0 +1,190 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,700&display=swap');
+
+
+
+*{
+   margin: 0;
+   padding: 0; 
+    background-color: #111315;
+    color: #fff; 
+    font-family:Poppins ;
+}
+
+.body{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.mainpage{
+    display: flex;
+    flex-direction: column;
+    width:75% ;
+    margin-left: 15px ;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#191D20;
+    height: 65px;
+    margin-top: 0;
+    position: sticky;
+    
+}
+
+.input{
+    display: flex;
+    gap:0;
+    width: 60%;
+    padding: 0;
+    border-radius: 3px;
+    align-items: center;
+    background-color: #272a30;
+    margin-left: 15px;
+}
+input{
+    border: none;
+    outline: none;
+    height: 30px;
+    background-color: #272a30;
+    padding-left: 15px;
+    font-size: 1rem;
+    
+}
+
+.fa-magnifying-glass{
+    height:22px;
+    margin-left: 8px;
+    background-color: transparent;
+}
+
+button{
+ height:30px ;
+ width: 15% ;
+ background-color: #FF2424;
+ border-radius: 3px;
+ border: none;
+ outline: none;
+ font-size: 1rem;
+}
+
+img{
+    background-color: transparent;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.banner{
+    width: 98%;
+    margin-top: 15px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.menu-heading{
+    display: flex;
+    justify-content: space-between;
+
+    margin:12px ;
+}
+
+.opener{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 5px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    background-color: #191d20;
+    padding: 10px;
+    max-width: 25vw;
+    margin-left: 15px;
+}
+
+.item-image{
+    background-color: #191d20;
+}
+
+
+.item-image img{
+    width: 100%;
+    background-color: #191d20;
+}
+
+.food-description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #191d20;
+
+}
+
+.food-description h1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size:20px;
+    background-color: transparent;
+}
+
+.food-description .descript h1,p{
+    background-color: #191d20;;
+}
+
+.add-to-cart{
+    background-color: transparent;
+}
+
+.side-bar{
+    display: flex;
+    flex-direction: column;
+    max-width: 30vw;
+    margin-top: 0;
+    margin-left: 30px;
+    row-gap: 30px;
+
+}
+
+.icon{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.icon img{
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+.icon h1{
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.icon p{
+    font-size: 13px;
+    margin-top: 0;
+    color: red;
+}
+
+h1{
+    font-size:20px;
+}
+
